@@ -1,0 +1,76 @@
+{
+  "name": "PICO-8 Theme",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#1D2B53",
+    "editor.foreground": "#C2C3C7",
+    "editorCursor.foreground": "#FF004D",
+    "editorLineNumber.foreground": "#5F574F",
+    "editor.selectionBackground": "#7E2553AA",
+    "editor.inactiveSelectionBackground": "#7E255355",
+    "editorIndentGuide.background": "#5F574F",
+    "editorIndentGuide.activeBackground": "#C2C3C7"
+  },
+  "tokenColors": [
+    {
+      "scope": [
+        "comment",
+        "comment.line.double-dash.lua"
+      ],
+      "settings": {
+        "foreground": "#5F574F",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": [
+        "keyword.control.lua"
+      ],
+      "settings": {
+        "foreground": "#7E2553",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": [
+        "storage.modifier.lua"
+      ],
+      "settings": {
+        "foreground": "#C2C3C7"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.function.lua"
+      ],
+      "settings": {
+        "foreground": "#29ADFF"
+      }
+    },
+    {
+      "scope": [
+        "support.function.builtin.lua"
+      ],
+      "settings": {
+        "foreground": "#FFEC27"
+      }
+    },
+    {
+      "scope": [
+        "constant.numeric.lua"
+      ],
+      "settings": {
+        "foreground": "#AB5236"
+      }
+    },
+    {
+      "scope": [
+        "string.quoted.double.lua",
+        "string"
+      ],
+      "settings": {
+        "foreground": "#008751"
+      }
+    }
+  ]
+}

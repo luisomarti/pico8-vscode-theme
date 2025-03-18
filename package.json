@@ -1,0 +1,22 @@
+{
+  "name": "pico8-vscode-theme",
+  "displayName": "PICO-8 Theme",
+  "description": "A PICO-8 inspired color theme for Visual Studio Code",
+  "version": "1.0.0",
+  "publisher": "luisomarti",
+  "engines": {
+    "vscode": "^1.50.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "PICO-8 Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/pico8-color-theme.json"
+      }
+    ]
+  }
+}
