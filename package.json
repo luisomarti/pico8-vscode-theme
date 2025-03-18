@@ -18,5 +18,9 @@
         "path": "./themes/pico8-color-theme.json"
       }
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tu_usuario/pico8-theme.git"
   }
 }
